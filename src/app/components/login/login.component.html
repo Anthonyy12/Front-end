@@ -1,14 +1,51 @@
-<a href="home" class="back"><</a>
-<form class="login-form">
-    <p class="login-text">
-      <span>
-      <h1>Login</h1>
-      </span>
-    </p>
-    <input type="email" class="login-username" autofocus="true" required="true" placeholder="Email" />
-    <input type="password" class="login-password" required="true" placeholder="Contraseña" />
-    <input type="submit" name="Login" value="Iniciar Sesion" class="login-submit" />
-  </form>
-  <a href="register" class="login-forgot-pass">¿No tienes cuenta? Registrate</a>
-  <div class="underlay-photo"></div>
-  <div class="underlay-black"></div> 
+<div class="body">
+  <div class="wrapper">
+  <nav class="nav">
+    <div class="nav-logo">
+      <p>Logo</p>
+    </div>
+    <div class="nav-menu" id="navMenu">
+      <ul>
+        <li><a href="#" class="link active">Inicio</a></li>
+        <li><a href="#" class="link">Acerca de Nosotros</a></li>
+        <li><a href="#" class="link">Funciones</a></li>
+      </ul>
+    </div>
+    <div class="nav-button">
+      <button class="btn white-btn" id="loginBtn" onclick={login}>Iniciar Sesión</button>
+      <button class="btn" id="registerBtn" onclick={register}>Regístrate</button>
+    </div>
+    <div class="nav-menu-btn">
+      <i class='bx bx-menu' onclick="myMenuFunction()"></i>
+    </div>
+  </nav>
+  <div class="form-box">
+    <div class="login-container" id="login">
+      <div class="top">
+        <span>¿Aún no tienes cuenta? <a href="register" onclick="login()">Regístrate</a></span>
+        <header>Iniciar Sesión</header>
+      </div>
+      <div class="input-box">
+        <input type="email" class="input-field" placeholder="Email">
+        <i class="bx bx-envelope"></i>
+      </div>
+      <div class="input-box">
+        <input type="password" class="input-field" placeholder="Password">
+        <i class="bx bx-lock-alt"></i>
+      </div>
+      <div class="input-box">
+        <input type="submit" class="submit" value="Sign In">
+      </div>
+      <div class="two-col">
+        <div class="one">
+          <input type="checkbox" id="register-check">
+          <label for="register-check">Recuérdame</label>
+        </div>
+        <div class="two">
+          <label><a href="#">¿Olvidaste tu contraseña?</a></label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

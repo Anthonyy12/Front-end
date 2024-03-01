@@ -9,7 +9,9 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
-import { NavbarinicioComponent } from './components/navbarinicio/navbarinicio.component'
+import { NavbarinicioComponent } from './components/navbarinicio/navbarinicio.component';
+import { AcercaComponent } from './components/acerca/acerca.component';
+import { FuncionesComponent } from './components/funciones/funciones.component'
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { NavbarinicioComponent } from './components/navbarinicio/navbarinicio.co
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    NavbarinicioComponent
+    NavbarinicioComponent,
+    AcercaComponent,
+    FuncionesComponent
   ],
   imports: [
     BrowserModule,

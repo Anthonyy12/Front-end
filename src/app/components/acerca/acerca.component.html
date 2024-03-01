@@ -1,0 +1,107 @@
+<div class="back">
+    <div class="body">
+        <div class="wrapper">
+          <nav class="nav">
+            <div class="nav-logo">
+              <p>Logo</p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+              <ul>
+                <li><a href="#" class="link">Inicio</a></li>
+                <li><a href="/acerca" class="link active">Acerca de Nosotros</a></li>
+                <li><a href="/funciones" class="link">Funciones</a></li>
+              </ul>
+            </div>
+            <div class="nav-button">
+              <button class="btn white-btn" id="loginBtn" [routerLink]="['/login']" routerLinkActive="router-link-active" >Iniciar Sesión</button>
+              <button class="btn white-btn" id="registerBtn" [routerLink]="['/register']" routerLinkActive="router-link-active" >Regístrate</button>
+            </div>
+            <div class="nav-menu-btn">
+              <i class='bx bx-menu' onclick="myMenuFunction()"></i>
+            </div>
+          </nav>
+        </div>
+    </div>
+</div>
+<!--Breadcrumb-->
+<div class="breadcrumb">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/home">Inicio</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Acerca de Nosotros</li>
+    </ol>
+  </nav>
+</div>
+<!--Cards-->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="https://img.freepik.com/foto-gratis/primer-plano-guapo-joven-hombre-negocios-moderno-traje-sonriente-posicion-contra-fondo-blanco_1258-64864.jpg" class="card-img-top" width="500" height="300">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://img.freepik.com/foto-gratis/increible-mujer-negocios-alegre-pie-brazos-cruzados_171337-8487.jpg" class="card-img-top" width="500" height="300">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://us.123rf.com/450wm/warrengoldswain/warrengoldswain1201/warrengoldswain120100278/11900443-sonriente-hombre-de-negocios-conf%C3%ADa-en-un-traje-formal-se-ajusta-a-sus-gemelos.jpg" class="card-img-top" width="500" height="300">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://img.freepik.com/foto-gratis/apuesto-joven-empresario-traje_273609-6513.jpg" class="card-img-top" width="500" height="300">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer-->
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+  <div class="row">
+    <div class="col-12 col-md">
+      <img class="mb-2" src="" alt="" width="24" height="19">
+      <small class="d-block mb-3 text-body-secondary">© 2024</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Soporte</h5>
+      <ul class="list-unstyled text-small">
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">devpanda@enterprise.com</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Acerca de Nosotros</h5>
+      <ul class="list-unstyled text-small">
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="/acerca">Colaboradores</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="/acerca">Misión</a></li>
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="/acerca">Logros</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Funciones</h5>
+      <ul class="list-unstyled text-small">
+        <li class="mb-1"><a class="link-secondary text-decoration-none" href="/funciones">Guía</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <p class="float-end">
+        <a href="/acerca">Regresar al Inicio</a>
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,26 @@
+<div class="back">
+    <div class="body">
+        <div class="wrapper">
+          <nav class="nav">
+            <div class="nav-logo">
+              <p>Logo</p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+              <ul>
+                <li><a href="#" class="link">Inicio</a></li>
+                <li><a href="/acerca" class="link">Acerca de Nosotros</a></li>
+                <li><a href="/funciones" class="link active">Funciones</a></li>
+              </ul>
+            </div>
+            <div class="nav-button">
+              <button class="btn white-btn" id="loginBtn" [routerLink]="['/login']" routerLinkActive="router-link-active" >Iniciar Sesión</button>
+              <button class="btn white-btn" id="registerBtn" [routerLink]="['/register']" routerLinkActive="router-link-active" >Regístrate</button>
+            </div>
+            <div class="nav-menu-btn">
+              <i class='bx bx-menu' onclick="myMenuFunction()"></i>
+            </div>
+          </nav>
+        </div>
+    </div>
+</div>
+
